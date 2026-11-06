@@ -1,0 +1,33 @@
+{
+  "skill": "visual-event-modeling",
+  "test_cases": [
+    {
+      "name": "tool-library",
+      "input": "Model a neighborhood tool library. Neighbors borrow tools, a volunteer checks the tool back in, and anything overdue becomes work for the volunteer. Blueprint it before we write code.",
+      "assertions": [
+        "Emits eventmodeling text and an SVG",
+        "Overdue work is a to-do list",
+        "Does not ask a mentor",
+        "Example values, not types"
+      ]
+    },
+    {
+      "name": "clinic-reminders",
+      "input": "We're building a small clinic desk. Patients request appointments, the desk confirms a time, and a reminder goes out the day before without anyone clicking send. Specify the system.",
+      "assertions": [
+        "Confirmation is a state change",
+        "The reminder is a translation, not a fake user click",
+        "Does not choose a database"
+      ]
+    },
+    {
+      "name": "photo-moderation",
+      "input": "Messy note from the founder: users upload a photo, we moderate it, if it's ok it shows on their profile, if not we tell them and someone on trust-and-safety has a queue. Event-model this.",
+      "assertions": [
+        "A decline is its own event and its own slice",
+        "The queue is a to-do list",
+        "Does not treat 'user viewed the photo' as an event"
+      ]
+    }
+  ]
+}

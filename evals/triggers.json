@@ -1,0 +1,25 @@
+{
+  "skill": "visual-event-modeling",
+  "test_cases": [
+    {
+      "input": "Blueprint how a guest reserves a room, before we write any code.",
+      "should_trigger": true
+    },
+    {
+      "input": "Turn this messy note into an event model.",
+      "should_trigger": true
+    },
+    {
+      "input": "What happens when a tool is overdue?",
+      "should_trigger": true
+    },
+    {
+      "input": "Which expected version do we send when two writers append to one stream?",
+      "should_trigger": false
+    },
+    {
+      "input": "Make the header font larger.",
+      "should_trigger": false
+    }
+  ]
+}
